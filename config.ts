@@ -57,8 +57,8 @@ export const ABOUT = {
   text: 'A Gallery, Gaming, & Metaverse.'
 }
 export const ABOUT2 = {
-  title: undefined,
-  text: undefined
+  title: 'Why just a login?',
+  text: 'Logging into brag reserves your whitelist spot. 1,000 spots available today! Better hurry, spots are closing fast!'
 }
 export const ABOUT3 = {
   title: undefined,
