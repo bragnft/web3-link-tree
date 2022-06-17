@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Web3ReactProvider getLibrary={getLibrary}>
     <div className='flex flex-col w-full h-full fixed z-10 text-white/80'>
       <Head>
-        <title>{DETAILS.name} - Web3 Link Tree</title>
+        <title>{DETAILS.name}</title>
         <meta name='keywords' content={TITLE} />
         <meta name='description' content={TITLE} />
         <link rel='icon' href='/favicon.ico' />

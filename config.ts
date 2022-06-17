@@ -3,14 +3,14 @@
 
 // Set 'wallet' to undefined if you wish to disable the Tipping feature
 export const DETAILS = {
-  name: 'Eto',
-  header: 'Eto.eth',
-  headerlink: 'https://twitter.com/etoeth',
+  name: 'Brag',
+  header: undefined,
+  headerlink: 'https://twitter.com/bragnft',
   wallet: '0x239b88b1be00f539c8200c571d82ca13c661faf3'
 }
 
 // Import Background Image here 👇
-import bg from './images/bg.gif'
+import bg from './images/bg.png'
 export const BG = bg;
 
 // Import Logo Image here 👇
@@ -18,7 +18,7 @@ import logo from './images/logo.png'
 export const LOGO = logo;
 
 import btn_twitter from './images/btn_twitter.png'
-import btn_medium from './images/btn_medium.png'
+import btn_discord from './images/btn_discord.png'
 // Import Button Images here 👆
 
 // Buttons are best as 1500x500px images!
@@ -28,13 +28,13 @@ import btn_medium from './images/btn_medium.png'
 // To include a footer icon: Give 'link' a value
 // To include a button: Give 'button' your imported image value
 export const TWITTER = {
-  link: 'https://twitter.com/etoeth',
+  link: 'https://twitter.com/bragnft',
   button: btn_twitter
 }
 
 export const MEDIUM = {
-  link: 'https://medium.com/@0xEto',
-  button: btn_medium
+  link: undefined,
+  button: undefined
 }
 
 export const GITHUB = {
@@ -43,8 +43,8 @@ export const GITHUB = {
 }
 
 export const DISCORD = {
-  link: undefined,
-  button: undefined
+  link: "https://www.discord.gg/EH25v67e33",
+  button: btn_discord
 }
 
 export const SUBSTACK = {
@@ -53,8 +53,8 @@ export const SUBSTACK = {
 }
 
 export const ABOUT = {
-  title: 'Where is Eto?',
-  text: 'In the Shadows.'
+  title: 'What is Brag?',
+  text: 'A Gallery, Gaming, & Metaverse.'
 }
 export const ABOUT2 = {
   title: undefined,

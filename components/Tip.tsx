@@ -10,7 +10,7 @@ export const Tip: React.FC = ({}) => {
   const web3 = useWeb3React();
     web3.active
       ? console.log(
-          'You are connected to Web3 Link Tree by @0xNaut via',
+          'You are connected to Web3 Brag via',
           web3.account
         )
       : console.log('Web3 not connected');
@@ -123,11 +123,11 @@ export const Tip: React.FC = ({}) => {
                   Donate to {DETAILS.name}
                 </Dialog.Title>
                 <div className='mt-2 flex-col space-y-2'>
-                  <p className='text-sm text-gray-200/90 font-semibold'>
-                    Please note, you are donating in the Native token of whichever Blockchain you are currently on.
+                  <p className='text-sm text-red-200/90 font-semibold'>
+                    ** Please note, you are donating in the Native token connected to Metamask.
                   </p>
                   <p className='text-xs text-gray-200/90'>
-                    You can donate any Native token, by switching to any Blockchain. A blockchain indicator is planned.
+                    You can donate any Native token, by switching to any Blockchain. A blockchain indicator is shown.
                   </p>
                 </div>
 

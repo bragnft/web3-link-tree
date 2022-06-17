@@ -14,43 +14,7 @@ export const Footer: React.FC = ({}) => {
 
       <div className='flex items-center flex-col text-xs space-y-1'>
         <span className='leading-none text-white/75 flex items-center space-x-1.5'>
-          <span className='flex'>Made with</span>{' '}
-          <span>
-            <a
-              className='text-primary/75 hover:text-primary'
-              href='https://twitter.com/0xNaut'
-              target='_blank'
-              rel='noreferrer'>
-              <BsHeartFill />
-            </a>
-          </span>
-          <span>
-            by{' '}
-            <a
-              className='text-primary/75 font-semibold hover:text-primary'
-              href='https://twitter.com/0xNaut'
-              target='_blank'
-              rel='noreferrer'>
-              {' '}
-              Naut
-            </a>
-            .
-          </span>
         </span>
-        <a
-          href='https://github.com/0xNaut/Web3-Link-Tree'
-          target='_blank'
-          rel='noreferrer'
-          className='group cursor-pointer'>
-          <span className='font-semibold group-hover:text-primary'>Create</span>{' '}
-          your own{' '}
-          <span className='font-semibold group-hover:text-primary'>
-            Web3 Link Tree
-          </span>{' '}
-          <div className='items-center ml-1.5 inline-block translate-y-0.5 group-hover:text-primary group-hover:translate-x-4 transition-all duration-200 ease-in-out'>
-            <FiArrowRight />
-          </div>
-        </a>
       </div>
     </footer>
   );
