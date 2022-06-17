@@ -6,7 +6,7 @@ export const DETAILS = {
   name: 'Brag',
   header: undefined,
   headerlink: 'https://twitter.com/bragnft',
-  wallet: '0x239b88b1be00f539c8200c571d82ca13c661faf3'
+  wallet: '0xD76E3fa964D26E08B2BD64e04BEAa44B1fe47865'
 }
 
 // Import Background Image here 👇
